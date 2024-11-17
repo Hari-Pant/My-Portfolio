@@ -121,7 +121,7 @@ body {
 
 
 #container {
-    /* height: 80vh; */
+    height: 80vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -189,12 +189,12 @@ body {
 .btn-D button::after{
     content: '';
     background: linear-gradient(to right, rgb(170, 107, 258), #003285);
-    height: 117%;
-    width: 104%;
+    height: 109%;
+    width: 102%;
     position: absolute;
-    top: -3.5px;
+    top: -2px;
     bottom: 0;
-    left: -3px;
+    left: -1.7px;
     z-index: -1;
     border-radius: 50px;
 
@@ -219,7 +219,7 @@ body {
 
 #container>#right1 {
     height: 100%;
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     position: relative;
 
@@ -227,10 +227,13 @@ body {
 
 #right1>img {
     height: 100%;
-    width: 74%;
-    object-fit: contain;
+    /* width: 74%; */
+    object-fit: cover;
     position: relative;
-    left: 12%;
+    /* left: 12%; */
+    border-radius: 15px;
+    margin: 5px 25px;
+
 }
 
 
@@ -511,7 +514,7 @@ small {
 
 
 
-
+    /* ------Contact-------------- */
     #left>img {
         height: 10vh;
         width: 18vw;
@@ -589,6 +592,7 @@ small {
 
 
 
+    /* ------Project---------- */
     #card {
         /* height: 80vh; */
         width: 100vw;
@@ -637,7 +641,7 @@ small {
 
 
 
-
+/* -----------------Home------------------ */
     #nav>#right a {
         display: none;
 
@@ -725,18 +729,18 @@ small {
 
     }
 
-    #container>#right1 {
-        /* height: 100%; */
-        /* width: 100%; */
-        display: none;
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* position: relative; */
-        /* top: 50%; */
-        /* transform: translateY(5%); */
+    /* #container>#right1 {
+        height: 100%;
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(5%);
     }
 
-    /* #right1>img {
+    #right1>img {
         height: 100%;
         width: 80%;
         object-fit: cover;
