@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // Setup and start animation!
 
   var typed = new Typed('#element', {
-    strings: ['App Developer.', 'Graphic Designer.', 'Web Developer.'],
+    strings: ['App Developer.','Logo Desiginer','Graphic Designer.', 'Web Developer.'],
     typeSpeed: 50,
     loop: false,
     loopCount: Infinity,
