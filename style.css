@@ -146,6 +146,9 @@ body {
   color: #003285;
   border-bottom: 4px solid #003285;
   position: relative;
+  background: linear-gradient(to top, rgb(170, 107, 258), #003285);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #left1 > p {
@@ -645,7 +648,7 @@ small {
     display: flex;
     position: relative;
     text-align: center;
-    top: 12%;
+    top: 16%;
     z-index: 22;
     align-items: center;
     justify-content: flex-start;
